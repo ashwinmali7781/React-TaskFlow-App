@@ -1,16 +1,92 @@
-# React + Vite
+# React TaskFlow App 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Todo Task Management Application** built using **React, Redux Toolkit, and Tailwind CSS**.  
+This app helps users manage daily tasks easily with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- ➕ Add new tasks
+- 📋 View all todos
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+- 🎨 Modern UI with Tailwind CSS
+- ⚡ Fast performance with Vite
+- 🔄 State management using Redux Toolkit
+- 📱 Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **State Management:** Redux Toolkit
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Language:** JavaScript
+
+---
+
+## 📂 Project Structure
+
+```
+React-TaskFlow-App
+│
+├── src
+│   ├── components
+│   │   ├── AddTodo.jsx
+│   │   └── Todos.jsx
+│   │
+│   ├── features
+│   │   └── todoSlice.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── public
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/ashwinmali7781/React-TaskFlow-App.git
+```
+
+### 2️⃣ Go to project folder
+
+```bash
+cd React-TaskFlow-App
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Ashwin Mali**
+
+- GitHub: https://github.com/ashwinmali7781
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
